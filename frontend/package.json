@@ -1,0 +1,42 @@
+{
+  "name": "leave-productivity-analyzer-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chart.js": "^3.9.1",
+    "react-chartjs-2": "^4.3.1",    
+    "chartjs-plugin-annotation": "^3.0.1",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.309.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.4",
+    "react-hot-toast": "^2.4.1",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
