@@ -8,14 +8,14 @@ const app = express();
 // Fix Mongoose deprecation warning
 mongoose.set('strictQuery', false);
 
-// CORS configuration for Vercel
+// CORS configuration for Vercel - UPDATED DOMAIN
 const allowedOrigins = process.env.NODE_ENV === 'production' 
   ? [
-      'https://leave-productivity-analyzer.vercel.app',
-      'https://leave-productivity-analyzer-git-main-nitya-nivdunges-projects.vercel.app',
-      /https:\/\/leave-productivity-analyzer-.*\.vercel\.app$/
+      'https://employee-productivity-tracker.vercel.app',
+      'https://employee-productivity-tracker-git-main-nitya-nivdunges-projects.vercel.app',
+      /https:\/\/employee-productivity-tracker-.*\.vercel\.app$/
     ]
-  : ['http://localhost:3000'];
+  : ['http://localhost:3000', 'http://localhost:3001'];
 
 app.use(cors({
   origin: function(origin, callback) {
